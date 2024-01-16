@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dice_game.github.io/static/css/main.7ecf4ac0.css",
-    "main.js": "/dice_game.github.io/static/js/main.06b0d65c.js",
-    "static/js/787.fd9f8f4d.chunk.js": "/dice_game.github.io/static/js/787.fd9f8f4d.chunk.js",
-    "index.html": "/dice_game.github.io/index.html",
-    "main.7ecf4ac0.css.map": "/dice_game.github.io/static/css/main.7ecf4ac0.css.map",
-    "main.06b0d65c.js.map": "/dice_game.github.io/static/js/main.06b0d65c.js.map",
-    "787.fd9f8f4d.chunk.js.map": "/dice_game.github.io/static/js/787.fd9f8f4d.chunk.js.map"
+    "main.css": "/dice_game/static/css/main.7ecf4ac0.css",
+    "main.js": "/dice_game/static/js/main.8f57f5e7.js",
+    "static/js/787.fd9f8f4d.chunk.js": "/dice_game/static/js/787.fd9f8f4d.chunk.js",
+    "index.html": "/dice_game/index.html",
+    "main.7ecf4ac0.css.map": "/dice_game/static/css/main.7ecf4ac0.css.map",
+    "main.8f57f5e7.js.map": "/dice_game/static/js/main.8f57f5e7.js.map",
+    "787.fd9f8f4d.chunk.js.map": "/dice_game/static/js/787.fd9f8f4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ecf4ac0.css",
-    "static/js/main.06b0d65c.js"
+    "static/js/main.8f57f5e7.js"
   ]
 }
