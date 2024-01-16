@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+/* .rolldice {
+  width: 100%;
+  clear: both;
+} */

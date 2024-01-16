@@ -1,0 +1,33 @@
+.box {
+  height: 80px;
+  width: 80px;
+  font-size: 24px;
+  border: 1px solid black;
+
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
+.notselected {
+  background-color: white;
+  color: black;
+}
+
+.sidebox {
+  margin-top: 1rem;
+  display: flex;
+  gap: 24px;
+}
+
+.ptag {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+  font-weight: 900;
+}

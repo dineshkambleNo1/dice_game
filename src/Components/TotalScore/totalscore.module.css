@@ -1,0 +1,22 @@
+.score {
+  margin: 0;
+  padding: 0px;
+    
+  text-align: center;
+  font-size: 100px;
+  max-width: 200px;
+  line-height: 100px;
+  font-weight: 900; 
+
+  
+}
+
+.totalScore {
+  align-items: center ;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 4rem;
+
+  font-size: 24px;
+  font-weight: 500;
+}

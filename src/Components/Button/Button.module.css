@@ -1,0 +1,49 @@
+.playnow {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  align-items: center;
+  min-width: 150px;
+  font-size: 20px;
+  max-width: 900px;
+  width: 50%;
+  cursor: pointer;
+  border: none;
+  border: 1px solid black;
+  transition: all 0.3s ease-in;
+
+  /* hover nhi ho raha he  */
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in;
+  }
+}
+
+.reset {
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 8px;
+  align-items: center;
+  min-width: 150px;
+  font-size: 20px;
+  max-width: 900px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #000000;
+}
+
+.rules {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  align-items: center;
+  min-width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid black;
+}

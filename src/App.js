@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Gameplay from "./Components/GamePlay/Gameplay";
+import Home from "./Components/Home/Home";
+import React, { useState } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // use state use karke hum eek page se dusre page me jayenge
+
+  const [isGameStarted, setGameStarted] = useState(true);
+
+  const toggleGamePlay = () => {
+    setGameStarted((prev) => !prev);
+  };
+
+  return <>{isGameStarted ? <Gameplay /> : <Home toggle={toggleGamePlay} />}</>;
 }
 
 export default App;

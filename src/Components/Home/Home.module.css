@@ -1,0 +1,31 @@
+.home_container {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.home_image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 2 rem;
+  margin-top: 3.8rem;
+}
+
+.home_content {
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.home_heading {
+  margin-bottom: 9px;
+  font-size: 80px;
+  font-weight: bolder;
+  margin-left: 6rem;
+  white-space: nowrap;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
