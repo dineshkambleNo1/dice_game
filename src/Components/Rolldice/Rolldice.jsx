@@ -2,7 +2,6 @@ import styles from "./rolldice.module.css";
 import Button from "../Button/Button";
 
 const Rolldice = ({ currentDice, roleDice, resetScore }) => {
-
   console.log({ currentDice, roleDice, resetScore });
   return (
     <div className={styles.div}>
@@ -14,11 +13,9 @@ const Rolldice = ({ currentDice, roleDice, resetScore }) => {
       />
       <p className={styles.ptag}>Click on Dice to roll </p>
       <div className={styles.buttons}>
-        <Button
-          onClick={() => resetScore()}
-          text={"Reset Score"}
-          className={styles.reset}
-        />
+        <button className={styles.reset} onClick={resetScore}>
+          Reset count
+        </button>
         <Button text={"Show Rules"} className={styles.rules} />
       </div>
     </div>

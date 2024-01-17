@@ -40,7 +40,7 @@ const Gameplay = () => {
 
   const resetScore = () => {
     console.log("k");
-    //updateScore(0);
+    updateScore(0);
   };
 
   return (
@@ -64,7 +64,7 @@ const Gameplay = () => {
       </div>
       <div>
         <Rules />
-        {/* <button>kuch b</button> */}
+        
       </div>
     </main>
   );
