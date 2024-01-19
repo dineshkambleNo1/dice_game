@@ -6,7 +6,7 @@ const TotalSore = ({ score }) => {
     <main>
       <div>
         <h1 className={styles.score}>{score}</h1>
-        <p className={styles.totalScore}>Total Score </p>
+        <p className={styles.totalScore}>TOTAL SCORE </p>
       </div>
     </main>
   );

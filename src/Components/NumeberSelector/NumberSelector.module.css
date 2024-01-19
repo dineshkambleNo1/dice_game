@@ -26,8 +26,9 @@
 }
 
 .ptag {
+  margin : 1rem;
   display: flex;
   justify-content: flex-end;
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 900;
 }

@@ -10,6 +10,7 @@ const Gameplay = () => {
   const [currentDice, setCurrentDice] = useState(4);
   const [score, updateScore] = useState(0);
   const [error, setError] = useState("");
+  const [showRules, setShowRules] = useState(false);
 
   const generateRandomNo = (min, max) => {
     //  console.log(Math.floor(Math.random() * (max - min) + min));
@@ -44,7 +45,7 @@ const Gameplay = () => {
   };
 
   return (
-    <main>
+    <main className={styles.mainparent}>
       <div className={styles.flex}>
         <TotalSore score={score} />
         <NumberSelector
@@ -60,13 +61,28 @@ const Gameplay = () => {
           currentDice={currentDice}
           roleDice={roleDice}
           resetScore={resetScore}
+          showRules={showRules}
         />
       </div>
-      <div>
-        <Rules />
-        
+
+      <div className={styles.buttons}>
+        <button className={styles.rules} onClick={resetScore}>
+          Reset count
+        </button>
+
+        <button
+          className={styles.rules}
+          onClick={() => setShowRules((prev) => !prev)}
+        >
+          {!showRules ? "Hide Rules" : "Show Rules"}
+        </button>
+        <div>{!showRules && <Rules />}</div>
       </div>
     </main>
+
+    // showRules pehle toh false he
+    // line no 77 agar showRules agar true hoga toh Rules compnent dikhega in line 79
+    // button me Hide rule show hoga
   );
 };
 

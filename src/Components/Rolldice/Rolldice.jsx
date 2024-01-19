@@ -1,7 +1,15 @@
 import styles from "./rolldice.module.css";
 import Button from "../Button/Button";
 
+import { useState } from "react";
+
 const Rolldice = ({ currentDice, roleDice, resetScore }) => {
+  // const changeRulesState = () => {
+  //   setShowRules(); // Replace "some value" with your condition
+
+  //   setShowRules(undefined);
+  // };
+
   console.log({ currentDice, roleDice, resetScore });
   return (
     <div className={styles.div}>
@@ -12,11 +20,18 @@ const Rolldice = ({ currentDice, roleDice, resetScore }) => {
         alt="dice 1  "
       />
       <p className={styles.ptag}>Click on Dice to roll </p>
-      <div className={styles.buttons}>
-        <button className={styles.reset} onClick={resetScore}>
-          Reset count
-        </button>
-        <Button text={"Show Rules"} className={styles.rules} />
+      <div >
+        
+
+        {/* <Button
+          onClick={showProps}
+          text={"Show Rules"}
+          className={styles.rules}
+        /> */}
+
+        {/* {!showBtn ? <button>Hide</button> : <button>Show</button>} */}
+        
+
       </div>
     </div>
   );

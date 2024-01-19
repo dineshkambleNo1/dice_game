@@ -38,7 +38,7 @@ const NumberSelector = ({
           //Too many re-renders. React limits the number of renders to prevent an infinite loop
         ))}
       </div>
-      <p className={styles.ptag}>Select Number </p>
+      <p className={styles.ptag}>SELECT NUMBER </p>
     </div>
   );
 };
